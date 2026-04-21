@@ -79,7 +79,8 @@ JASH PROJECT/
 
 * Payment Popup <img width="1920" height="1008" alt="image" src="https://github.com/user-attachments/assets/a83d94c9-955c-41e4-9493-2dda9878c2e9" />
 
-* Lawyers Section <img width="1920" height="1008" alt="image" src="https://github.com/user-attachments/assets/e3477f22-b10a-4165-8ac6-0a5e302bce60" />
+* Lawyers Section <img width="1920" height="1008" alt="image" src="https://github.com/user-attachments/assets/916b949d-4646-4f03-804c-d5fec82a07b6" />
+
 
 
 ---
