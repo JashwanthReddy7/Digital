@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<title>LegalPro+</title>
+<link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<!-- HERO -->
+<header class="hero">
+  <div class="hero-content">
+    <h1>⚖ LegalPro+</h1>
+    <p>Your Digital Legal Marketplace</p>
+    <button onclick="showLogin()">Get Started</button>
+  </div>
+</header>
+
+<!-- SERVICES -->
+<section class="services">
+  <div class="service">
+    <img src="https://cdn-icons-png.flaticon.com/512/3135/3135715.png">
+    <h3>Find Lawyers</h3>
+  </div>
+  <div class="service">
+    <img src="https://cdn-icons-png.flaticon.com/512/1040/1040230.png">
+    <h3>Consult Online</h3>
+  </div>
+  <div class="service">
+    <img src="https://cdn-icons-png.flaticon.com/512/3063/3063821.png">
+    <h3>Secure Payment</h3>
+  </div>
+</section>
+
+<!-- LOGIN -->
+<div id="authSection" class="modal hidden">
+  <div class="modal-content">
+    <h2>Login</h2>
+    <input id="email" placeholder="Email">
+    <input id="password" type="password" placeholder="Password">
+    <button onclick="login()">Login</button>
+  </div>
+</div>
+
+<!-- DASHBOARD -->
+<div id="dashboard" class="hidden">
+
+  <section class="card profile">
+    <img src="https://randomuser.me/api/portraits/men/50.jpg">
+    <h2 id="userEmail"></h2>
+  </section>
+
+  <section class="card">
+    <h2>Post Legal Issue</h2>
+    <textarea id="issue"></textarea>
+    <button onclick="addCase()">Post</button>
+  </section>
+
+  <section class="card">
+    <h2>Top Lawyers</h2>
+    <div id="lawyers" class="grid"></div>
+  </section>
+
+</div>
+
+<!-- CONTACT -->
+<div id="contactModal" class="modal hidden">
+  <div class="modal-content">
+    <h3>Contact Lawyer</h3>
+    <textarea placeholder="Message"></textarea>
+    <button onclick="openPayment()">Continue</button>
+  </div>
+</div>
+
+<!-- PAYMENT -->
+<div id="paymentModal" class="modal hidden">
+  <div class="modal-content">
+    <h3>Payment</h3>
+    <input placeholder="Card Number">
+    <input placeholder="MM/YY">
+    <input placeholder="CVV">
+    <button onclick="pay()">Pay ₹999</button>
+  </div>
+</div>
+
+<script src="script.js"></script>
+</body>
+</html>

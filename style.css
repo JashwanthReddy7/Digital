@@ -1,0 +1,121 @@
+body {
+  margin: 0;
+  font-family: 'Poppins', sans-serif;
+  background: linear-gradient(120deg, #f6d365, #fda085);
+}
+
+/* HERO */
+.hero {
+  height: 90vh;
+  background: url("https://images.unsplash.com/photo-1528747045269-390fe33c19f2") center/cover;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.hero-content {
+  text-align: center;
+  color: white;
+  background: rgba(0,0,0,0.6);
+  padding: 30px;
+  border-radius: 15px;
+}
+
+.hero button {
+  padding: 12px 20px;
+  background: #ff4b2b;
+  border: none;
+  color: white;
+  border-radius: 8px;
+}
+
+/* SERVICES */
+.services {
+  display: flex;
+  justify-content: space-around;
+  padding: 30px;
+  background: white;
+}
+
+.service {
+  text-align: center;
+}
+
+.service img {
+  width: 60px;
+}
+
+/* CARD */
+.card {
+  background: white;
+  margin: 20px auto;
+  padding: 20px;
+  width: 80%;
+  border-radius: 15px;
+  box-shadow: 0 10px 30px rgba(0,0,0,0.2);
+}
+
+/* PROFILE */
+.profile {
+  text-align: center;
+}
+
+.profile img {
+  width: 100px;
+  border-radius: 50%;
+}
+
+/* GRID */
+.grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(220px, 1fr));
+  gap: 20px;
+}
+
+/* LAWYER */
+.lawyer {
+  background: #f1f2f6;
+  padding: 15px;
+  border-radius: 12px;
+  text-align: center;
+  transition: 0.3s;
+}
+
+.lawyer:hover {
+  transform: scale(1.05);
+}
+
+.lawyer img {
+  width: 80px;
+  border-radius: 50%;
+}
+
+/* INPUT */
+input, textarea {
+  width: 100%;
+  margin-top: 10px;
+  padding: 10px;
+  border-radius: 8px;
+}
+
+/* MODAL */
+.modal {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background: rgba(0,0,0,0.7);
+}
+
+.modal-content {
+  background: white;
+  padding: 20px;
+  width: 300px;
+  margin: 10% auto;
+  border-radius: 10px;
+}
+
+.hidden {
+  display: none;
+}
